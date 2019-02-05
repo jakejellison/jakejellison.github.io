@@ -1,0 +1,44 @@
+p {
+	font-family: 'Staatliches', cursive;
+	text-align: center;
+}
+
+#yelling {
+	font-size: 150px;
+	color: #4F1271;
+}
+
+#countdownstart {
+	font-size: 48px;
+}
+#countdown {
+	font-size: 28px;
+	color: #592941;
+}
+
+#shocked {
+	font-size: 80px;
+	color: #592941;
+}
+
+#angry {
+	font-size: 400px;
+	color: #98473E;
+}
+
+#cocky {
+	font-size: 36px;
+	color: #07090F;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+#sad {
+	font-size: 14px;
+	color: #51D6FF;
+}
+
+#remorseful {
+	font-size: 10px;
+	color: #4F1271;
+}
