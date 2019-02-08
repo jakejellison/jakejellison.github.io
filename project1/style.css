@@ -3,6 +3,10 @@ p {
 	text-align: center;
 }
 
+#black {
+	background-color: black;
+}
+
 #yelling {
 	font-size: 300px;
 	color: #4F1271;
@@ -28,7 +32,7 @@ p {
 
 #cocky {
 	font-size: 36px;
-	color: #07090F;
+	color: white;
 	padding-left: 10%;
 	padding-right: 10%;
 }
@@ -41,4 +45,15 @@ p {
 #remorseful {
 	font-size: 10px;
 	color: #4F1271;
+}
+
+#woah {
+	font-size: 300px;
+	line-height: 300px;
+	opacity: .25;
+	color: blue;
+	float: left;
+	width: 50%;
+	position: fixed;
+
 }

@@ -1,0 +1,44 @@
+body {
+	margin: 10px, 10px, 20px, 20px;
+}
+
+.layer1 {
+	font-family: 'ZCOOL KuaiLe', cursive;
+	background-color: #f7856b;
+	width: 400px;
+	height: 150px;
+	color: white;
+	size: 24px;
+	text-align: center;
+	margin: auto;
+
+}
+
+.layer2 {
+	font-family: 'ZCOOL KuaiLe', cursive;
+	background-color: #a22215;
+	width: 380px;
+	height: 250px;
+	color: white;
+	size: 24px;
+	text-align: center;
+	margin: auto;
+
+}
+
+.layer3 {
+	font-family: 'ZCOOL KuaiLe', cursive;
+	background-color: #fd3a02;
+	width: 360px;
+	height:400px;
+	color: white;
+	size: 24px;
+	text-align: center;
+	margin: auto;
+}
+
+.description {
+	border-style: dotted;
+	padding: 20px;
+	margin-top: 50px;
+}
