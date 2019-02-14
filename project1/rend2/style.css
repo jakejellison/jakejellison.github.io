@@ -3,17 +3,37 @@ p {
 	text-align: center;
 }
 
+a {
+	font-size: 40px;
+	color: #fadf63;
+	float: right;
+	font-family: 'Staatliches', cursive;;
+}
+
+#woah {
+	font-size: 300px;
+	line-height: 240px;
+	opacity: .25;
+	color: blue;
+	float: left;
+	float: top;
+	width: 50%;
+	position: fixed;
+
+}
+
 #black {
 	background-color: black;
 }
 
 #yelling {
 	font-size: 300px;
+	line-height: 150px;
 	color: #4F1271;
 }
 
 #countdownstart {
-	font-size: 48px;
+	font-size: 96px;
 }
 #countdown {
 	font-size: 28px;
@@ -38,22 +58,16 @@ p {
 }
 
 #sad {
-	font-size: 14px;
+	font-size: 600px;
+	line-height: 150px;
 	color: #51D6FF;
 }
 
-#remorseful {
-	font-size: 10px;
-	color: #4F1271;
+#sad:hover {
+	line-height: 450px;
 }
 
-#woah {
-	font-size: 300px;
-	line-height: 300px;
-	opacity: .25;
-	color: blue;
-	float: left;
-	width: 50%;
-	position: fixed;
-
+#remorseful {
+	font-size: 100px;
+	color: #4F1271;
 }
