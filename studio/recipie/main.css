@@ -1,51 +1,25 @@
-#myVideo {
-  	position: fixed;
-  	right: 0;
-  	bottom: 0;
-  	min-width: 100%; 
-  	min-height: 100%;
-  	z-index: -100;
-
-  }
-
-a {
-	font-family: "helvetica";
-	font-size: 4vw;
-	color:red;
+body {
+	margin-left: 10%;
+	margin-right: 10%;
 }
 
-.quiz {
-	text-align: center;
-	background-color: blue;
+h1 {
+	font-family: 'Merriweather', serif;
+	size: 60px
 }
 
-.title {
-	font-family: "helvetica";
-	font-size: 5vw;
-	letter-spacing: -3px;
-	color: white;
+h2 {
+	font-family: 'Merriweather', serif;
+	size: 48px;
 }
 
-.title:hover {
-	letter-spacing: -4px;
-	color: #E2C044;
-
+p {
+	font-family: 'Open Sans', sans-serif;
+	size: 36px;
 }
 
-.header {
-	font-family: "helvetica";
-	font-size: 4vw;
-	letter-spacing: -2px;
-}
-
-.list {
-	font-family: "helvetica";
-}
-
-.row {
-  display: flex;
-}
-
-.column {
-  flex: 50%;
+li {
+	font-family: 'Open Sans', sans-serif;
+	size: 36px;
+	padding: 4px;
 }
