@@ -1,13 +1,25 @@
-body {
-  background-image: url("flower.jpg");
-  background-repeat: no-repeat;
-  background-position: right top;
-  background-attachment: fixed;
-}
+#myvideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  z-index: -100;
+
+ }
+
+ #abstract {
+ 	position: absolute;
+ 	right: 100;
+ 	bottom: 200;
+ 	min-width: 50%;
+ 	min-height: 50%;
+ 	z-index: 100;
+ }
 
 img {
 	position: fixed;
-	float: left;
+	align-items: right;
 	top: 2000px
 	right 400px;
 	z-index: 10;
