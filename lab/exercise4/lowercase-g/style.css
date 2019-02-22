@@ -1,7 +1,40 @@
-#uppercase-a {
+#lowercase-g {
   width:400px;
   height:500px;
-  border: 1px solid black;
+
+}
+
+.g1 {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	border: 6px solid black;
+	z-index: 10;
+	position: absolute;
+	left: 100px;
+	top: 50px;
+}
+
+.g2 {
+	width: 0px;
+	height: 300px;
+	z-index: 20;
+	position: absolute;
+	left: 280px;
+	top: 120px;
+	transform: rotate(25deg);
+	border: 3px solid black;
+}
+
+.g3 {
+	width: 150px;
+	height: 0px;
+	z-index: 30;
+	position: absolute;
+	left: 55px;
+	top: 375px;
+	transform: rotate(30deg);
+	border: 3px solid black;
 }
 
 pre code {

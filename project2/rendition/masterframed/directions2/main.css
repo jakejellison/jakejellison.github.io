@@ -1,7 +1,6 @@
 body {
 	margin-left: 10%;
 	margin-right: 10%;
-	background-color: #81D6E3;
 }
 
 h1 {
@@ -9,7 +8,6 @@ h1 {
 	font-size: 160px;
 	line-height: 160px;
 	text-align: center;
-	color: #B2DDf7;
 }
 
 ol {
@@ -21,14 +19,14 @@ li {
 	font-size: 36px;
 	padding: 4px;
 	text-align: left;
-	color: #B2DDf7;
+	
 }
 
 
 a {
-	background-color: #B2DDf7;;
+	background-color: black;
 	border: none;
-	color: #81d6e3;
+	color: white;
 	padding: 16px;
 	text-align: center;
 	text-decoration: none;
@@ -39,7 +37,7 @@ a {
 }
 
 a:hover {
-	background-color: #81d6e3;
-	color: #b2ddf7;
+	background-color: white;
+	color: black;
 }
 
