@@ -10,6 +10,10 @@ h1 {
 	text-align: center;
 }
 
+h1:hover {
+	transform: rotate(50deg);
+}
+
 ol {
 	padding: 20px;
 }
@@ -20,6 +24,10 @@ li {
 	padding: 4px;
 	text-align: left;
 	
+}
+
+li:hover {
+	font-size: 200px;
 }
 
 

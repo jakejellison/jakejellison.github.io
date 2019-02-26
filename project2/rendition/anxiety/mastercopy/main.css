@@ -8,6 +8,10 @@ h1 {
 	size: 60px
 }
 
+h1:hover {
+	letter-spacing: 15px;
+}
+
 h2 {
 	font-family: 'Merriweather', serif;
 	size: 48px;
