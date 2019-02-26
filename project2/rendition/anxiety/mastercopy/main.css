@@ -1,0 +1,25 @@
+body {
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+h1 {
+	font-family: 'Merriweather', serif;
+	size: 60px
+}
+
+h2 {
+	font-family: 'Merriweather', serif;
+	size: 48px;
+}
+
+p {
+	font-family: 'Open Sans', sans-serif;
+	size: 36px;
+}
+
+li {
+	font-family: 'Open Sans', sans-serif;
+	size: 36px;
+	padding: 4px;
+}
