@@ -2,20 +2,58 @@
 <html lang="en-ca">
 <head>
 	<meta charset="utf-8">
-	<title>Strawberry Lime Champagne</title>
+	<title>!</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link href="https://fonts.googleapis.com/css?family=ZCOOL+KuaiLe" rel="stylesheet">
 </head>
 
 
-<div id="exclamation">
+<div id="ex"">
+	<div class="e1">
 </div>
+	<div class="e2">
+</div>
+</div>
+
 
 
 <pre>
   <code>
-    <!--your code goes here-->
-    p { color: red; }
-    body { background-color: #eee; }
+   	#ex {
+  		width:400px;
+  		height:500px;
+  		border: 1px solid black;
+	}
+
+	.e1 {
+		width: 0px;
+		height: 350px;
+		z-index: 10;
+		position: absolute;
+		left: 200px;
+		top: 60px;
+		transform: rotate(20deg);
+		border: 3px solid black;
+	}
+
+	.e2 {
+		width: 0px;
+		height: 6px;
+		z-index: 20;
+		position: absolute;
+		left: 140px;
+		top: 420px;
+		transform: rotate(100deg);
+		border: 3px solid black;
+	}
+
+	pre code {
+  		background-color: #eee;
+  		border: 1px solid #999;
+  		display: block;
+  		padding: 20px;
+  		width:400px;
+	}
+	
   </code>
 </pre>

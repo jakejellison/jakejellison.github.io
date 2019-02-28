@@ -1,7 +1,29 @@
-#uppercase-a {
+#ex {
   width:400px;
   height:500px;
   border: 1px solid black;
+}
+
+.e1 {
+	width: 0px;
+	height: 350px;
+	z-index: 10;
+	position: absolute;
+	left: 200px;
+	top: 60px;
+	transform: rotate(20deg);
+	border: 3px solid black;
+}
+
+.e2 {
+	width: 0px;
+	height: 6px;
+	z-index: 20;
+	position: absolute;
+	left: 140px;
+	top: 420px;
+	transform: rotate(100deg);
+	border: 3px solid black;
 }
 
 pre code {
