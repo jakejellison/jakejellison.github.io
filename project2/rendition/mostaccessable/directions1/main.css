@@ -10,34 +10,70 @@ h1 {
 	text-align: center;
 }
 
-ol {
-	padding: 20px;
-}
-
-li {
+p {
 	font-family: 'Raleway', sans-serif;
 	font-size: 36px;
 	padding: 4px;
-	text-align: left;
+	text-align: center;
+	margin-left: 30%
+	margin-right: 30%;
 	
 }
 
 
-a {
+#button {
+	background-color: red;
+	border: none;
+	color: white;
+	padding: 16px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 8px;
+	font-size: 24px;
+	transition-duration: 0.4s;
+}
+
+#button:hover {
+	background-color: white;
+	color: black;
+}
+
+#navigation {
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+#click {
 	background-color: black;
 	border: none;
 	color: white;
 	padding: 16px;
 	text-align: center;
 	text-decoration: none;
-	display: inline-block;
 	border-radius: 8px;
-	font-size: 16px;
+	font-size: 24px;
 	transition-duration: 0.4s;
+	font-family: 'Raleway', sans-serif;
 }
 
-a:hover {
+#click:hover {
 	background-color: white;
 	color: black;
 }
+
+#current {
+	background-color: white;
+	border: none;
+	color: red;
+	padding: 16px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 8px;
+	font-size: 24px;
+	transition-duration: 0.4s;
+	pointer-events: none;
+	cursor: default;
+	font-family: 'Raleway', sans-serif;
+}
+
 
