@@ -1,0 +1,89 @@
+#face {
+  width: 500px;
+  height: 500px;
+  background-color: yellow;
+  border-radius:50%
+ 
+}
+
+#lefteye {
+  position: absolute;
+  background-color: white;
+  border-radius: 50%;
+  height: 200px;
+  width: 140px;
+  left: 60px;
+  top: 100px;
+}
+
+#lefteye:hover {
+ 
+}
+
+#righteye {
+  position: absolute;
+  background-color: white;
+  border-radius: 50%;
+  height: 200px;
+  width: 140px;
+  left: 240px;
+  top: 100px;
+}
+
+#mouth {
+     position: absolute;
+     height:45px;
+     width:90px;
+     border-radius: 90px 90px 0 0;
+     background-color: red;
+     top: 360px;
+     left: 200px;
+ }
+ 
+ #mouth:hover {
+   animation: mouth;
+   animation-duration: 5s;
+   animation-fill-mode:forwards;
+ }
+ 
+ @keyframes mouth {
+   0% {rotate(0deg)}
+   50% {width: 180px; height: 90px}
+   100% {transform: rotate(180deg)}
+ }
+
+#rpupil {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    left: 80px;
+    top: 180px;
+    border-radius: 50%
+}
+
+#lpupil {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    left: 260px;
+    top: 180px;
+    border-radius: 50%;
+    animation-name: roll;
+    animation-duration: 2s;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+}
+
+@keyframes roll {
+  from {
+    left: 260px;
+    top: 180px;
+  }
+
+  to {
+    left: 260px;
+    top: 120px;
+  }
+}
