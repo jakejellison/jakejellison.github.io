@@ -1,0 +1,72 @@
+body {
+	background-color: #F3FFC6;
+}
+
+#bracket {
+	display: flex;
+	flex-wrap: wrap;
+	align-content: center;
+	margin-left: -7.5px;
+	margin-top: -7.5px;
+}
+
+#cityname {
+	padding-top: 10px;
+	padding-left: 10px;
+}
+
+#newyork {
+	font-family: 'Luckiest Guy', cursive;
+	font-size: 56px;
+	display: inline-block;
+	width: 50%;
+	height: 450px;
+	background-color: #93B5C6;
+	flex-basis: 50%;
+}
+
+#baltimore {
+	font-family: 'Luckiest Guy', cursive;
+	font-size: 56px;
+	display: inline-block;
+	width: 50%;
+	height: 450px;
+	background-color: #DDEDAA;
+	flex-basis: 50%;
+}
+
+#losangeles {
+	font-family: 'Luckiest Guy', cursive;
+	font-size: 56px;
+	display: inline-block;
+	width: 50%;
+	height: 450px;
+	background-color: #F0CF65;
+	flex-basis: 50%;
+}
+
+#houston {
+	font-family: 'Luckiest Guy', cursive;
+	font-size: 56px;
+	display: inline-block;
+	width: 50%;
+	height: 450px;
+	background-color: #D7816A;
+	flex-basis: 50%;
+
+}
+
+@media only screen and (max-width: 1200px) {
+  #newyork {
+    flex-basis:100%;
+  }
+  #baltimore {
+    flex-basis:100%;
+  }
+  #losangeles {
+    flex-basis:100%;
+  }
+  #houston {
+    flex-basis:100%;
+  }
+}
