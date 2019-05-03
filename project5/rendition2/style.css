@@ -10,12 +10,12 @@ body {
 	margin-top: -7.5px;
 }
 
-#title {
+#cityname {
 	padding-top: 10px;
 	padding-left: 10px;
 }
 
-#one {
+#newyork {
 	font-family: 'Luckiest Guy', cursive;
 	font-size: 56px;
 	display: inline-block;
@@ -25,7 +25,7 @@ body {
 	flex-basis: 50%;
 }
 
-#two {
+#baltimore {
 	font-family: 'Luckiest Guy', cursive;
 	font-size: 56px;
 	display: inline-block;
@@ -35,7 +35,7 @@ body {
 	flex-basis: 50%;
 }
 
-#three {
+#losangeles {
 	font-family: 'Luckiest Guy', cursive;
 	font-size: 56px;
 	display: inline-block;
@@ -45,7 +45,7 @@ body {
 	flex-basis: 50%;
 }
 
-#four {
+#houston {
 	font-family: 'Luckiest Guy', cursive;
 	font-size: 56px;
 	display: inline-block;
@@ -54,6 +54,46 @@ body {
 	background-color: #D7816A;
 	flex-basis: 50%;
 
+}
+
+#nycurrent {
+	padding-top: 20px;
+	font-size: 40px;
+}
+
+#bacurrent {
+	padding-top: 20px;
+	font-size: 40px;
+}
+
+#lacurrent {
+	padding-top: 20px;
+	font-size: 40px;
+}
+
+#hocurrent {
+	padding-top: 20px;
+	font-size: 40px;
+}
+
+#nycurrent1 {
+	padding-top: 1px;
+	font-size: 40px;
+}
+
+#bacurrent1 {
+	padding-top: 1px;
+	font-size: 40px;
+}
+
+#lacurrent1 {
+	padding-top: 1px;
+	font-size: 40px;
+}
+
+#hocurrent1 {
+	padding-top: 1px;
+	font-size: 40px;
 }
 
 @media only screen and (max-width: 1200px) {
