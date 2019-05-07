@@ -1,0 +1,13 @@
+body {
+	background-color: #F3FFC6;
+}
+
+img {
+	height: 50vw;
+	flex-basis: 50%;
+}
+
+@media only screen and (max-width: 1200px) {
+  a {
+    flex-basis:100%;
+  }

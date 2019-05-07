@@ -1,0 +1,150 @@
+body {
+	background-color: #F3FFC6;
+}
+
+p {
+	font-family: 'Heebo', sans-serif;
+	font-weight: 900;
+	font-size: 60px;
+	line-height: 20px;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: -4px;
+	margin-bottom: 35px;
+
+}
+
+#bracket { /*THIS DIV CONTAINS THE ENTIRE PROJECT!*/
+	display: flex;
+	flex-wrap: wrap;
+	align-content: center;
+	margin-left: -7.5px;
+	margin-top: -7.5px;
+}
+
+#cityname { /*THIS IS TO STYLE THE CITY TITLES*/
+	font-family: 'Luckiest Guy', cursive;
+	font-size: 120px;
+	padding-top: 50px;
+	text-align: center;
+}
+
+#newyork { /*THIS IS FOR STYLING THE BOX ITSELF!*/
+	display: inline-block;
+	width: 50%;
+	height: 500px;
+	background-color: #93B5C6;
+	flex-basis: 50%;
+}
+
+#baltimore { /*THIS IS FOR STYLING THE BOX ITSELF!*/
+	display: inline-block;
+	width: 50%;
+	height: 500px;
+	background-color: #DDEDAA;
+	flex-basis: 50%;
+}
+
+#losangeles { /*THIS IS FOR STYLING THE BOX ITSELF!*/
+	display: inline-block;
+	width: 50%;
+	height: 500px;
+	background-color: #F0CF65;
+	flex-basis: 50%;
+}
+
+#houston { /*THIS IS FOR STYLING THE BOX ITSELF!*/
+	display: inline-block;
+	width: 50%;
+	height: 500px;
+	background-color: #D7816A;
+	flex-basis: 50%;
+
+}
+
+#nycurrent { /*WEATHER TEXT*/
+	font-family: 'Heebo', sans-serif;
+	text-transform: uppercase;
+	font-size: 48px;
+	line-height: 6px;
+	letter-spacing: -4px;
+}
+
+#bacurrent { /*WEATHER TEXT*/
+	font-family: 'Heebo', sans-serif;
+	text-transform: uppercase;
+	font-size: 48px;
+	line-height: 6px;
+	letter-spacing: -4px;
+}
+
+#lacurrent { /*WEATHER TEXT*/
+	font-family: 'Heebo', sans-serif;
+	text-transform: uppercase;
+	font-size: 48px;
+	line-height: 6px;
+	letter-spacing: -4px;
+}
+
+#hocurrent { /*WEATHER TEXT*/
+	font-family: 'Heebo', sans-serif;
+	text-transform: uppercase;
+	font-size: 48px;
+	line-height: 6px;
+	letter-spacing: -4px;
+}
+
+#nycurrent1 { /*HUMIDITY AND PERCENT SYMBOL*/
+	font-family: 'Heebo', sans-serif;
+	font-weight: 900;
+	padding-top: 80px;
+	font-size: 120px;
+	line-height: 10px;
+	text-align: center;
+	letter-spacing: -6px;
+}
+
+#bacurrent1 { /*HUMIDITY AND PERCENT SYMBOL*/
+	font-family: 'Heebo', sans-serif;
+	font-weight: 900;
+	padding-top: 80px;
+	font-size: 120px;
+	line-height: 10px;
+	text-align: center;
+	letter-spacing: -6px;
+}
+
+#lacurrent1 { /*HUMIDITY AND PERCENT SYMBOL*/
+	font-family: 'Heebo', sans-serif;
+	font-weight: 900;
+	padding-top: 80px;
+	font-size: 120px;
+	line-height: 10px;
+	text-align: center;
+	letter-spacing: -6px;
+}
+
+#hocurrent1 { /*HUMIDITY AND PERCENT SYMBOL*/
+	font-family: 'Heebo', sans-serif;
+	font-weight: 900;
+	padding-top: 80px;
+	font-size: 120px;
+	line-height: 10px;
+	text-align: center;
+	letter-spacing: -6px;
+}
+
+@media only screen and (max-width: 1200px) {
+  #newyork {
+    flex-basis:100%;
+  }
+  #baltimore {
+    flex-basis:100%;
+  }
+  #losangeles {
+    flex-basis:100%;
+  }
+  #houston {
+    flex-basis:100%;
+  }
+}
