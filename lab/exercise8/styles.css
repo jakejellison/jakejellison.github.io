@@ -1,0 +1,19 @@
+body {
+    background: #331832;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: #FDF0D5;
+    
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.box {
+    position: relative;
+    display: inline-block;
+    width: 200px;
+    height: 2000px;
+    color: #C6D8D3
+    margin: 50px;
+}
